@@ -4,7 +4,7 @@
 
 ### Exercício
 
-Dado uma lista de "Pessoas no Rolê", deverão buscar o nome da pessoa nessa lista, dizer se ela estava no rolês ou não.
+Dado uma lista de "Pessoas no Rolê", deverão buscar o nome da pessoa nessa lista, dizer se ela estava no rolê ou não.
 Separado em passos:
 Construa o HTML primeiro.
 Tente pegar o valor do input com javascript
@@ -21,7 +21,7 @@ const nomesNoRole =['Adriana',
 'Angelica',
 'Ba',
 'Babs',
-'Carolzinha,
+'Carolzinha',
 'Carolzona',
 'Cecilia',
 'Daiana',
@@ -41,7 +41,7 @@ const nomesNoRole =['Adriana',
 'Simara',
 'Simone',
 'Talita',
-'Telma,
+'Telma',
 'Thaís',
 'Valdeniza']
 ```
