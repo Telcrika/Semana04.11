@@ -25,3 +25,31 @@ let resultados = [
         imagem: "http://img.recipepuppy.com/5.jpg"
     }
 ];
+
+
+const renderNavbar = new Navbar
+
+renderNavbar.render()
+
+resultados.map((receita, index) => {
+    document.querySelector('.cards').insertAdjacentHTML('beforeend',new Card(receita).render())
+
+})
+
+document.querySelector('.button_search').addEventListener('click',function()){
+ 
+    let inputValue = document.querySelector('input_search')
+    .value.toUpperCase()
+    let achados = resultados.filter(receita => {
+        return receita.titulo.toUpperCase().includes(inputValue) ||
+        receita.ingredientes.toUpperCase().includes(inputValue)
+    })
+    if (inputValue === achados) {
+        return `resultado da busca ${'achados'}`
+    } else {
+        return `não encontrado`
+    }
+}
+
+//o componente precisa ser versátil
+ 
