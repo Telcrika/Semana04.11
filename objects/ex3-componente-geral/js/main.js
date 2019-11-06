@@ -31,6 +31,8 @@ const renderNavbar = new Navbar
 
 renderNavbar.render()
 
+const sectionCards = document.querySelector('.cards')
+
 document.querySelector('.cards').innerHTML = 
 resultados.map(receita => {
     return new Card(receita).render()

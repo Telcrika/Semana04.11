@@ -8,14 +8,14 @@ class Card {
             <h1>${this.receita.titulo}</h1>
             <p>${this.receita.ingredientes}
         </div> `
-        
+      //o componente ´precisa ser construido de uma forma versátil, de modo que possa
+//ser reutilizado.Por isso não acrescentar aqui a linha do DOM  
         
     }
     
 }
 
-//o componente ´precisa ser construido de uma forma versátil, de modo que possa
-//ser reutilizado.
+
 //resolução da Lydia:
 class Card{
     constructor(receita){

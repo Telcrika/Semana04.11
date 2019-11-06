@@ -16,3 +16,5 @@ class Card{
     }
 }
 
+//um bom construtor deve ser construido de modo que possa ser reaproveitado por qualquer outra classe.
+
